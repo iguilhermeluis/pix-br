@@ -54,7 +54,6 @@ fn main() {
 | merchantCity | string  | ✅       |
 | merchantCep  | string  | ❌       |
 | description  | string  | ❌       |
-| identifier   | string  | ❌       |
 | isUnique     | boolean | ❌       |
 
 ---
