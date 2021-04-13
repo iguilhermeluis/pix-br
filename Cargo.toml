@@ -1,0 +1,24 @@
+[package]
+name = "pix-br"
+version = "0.1.0"
+authors = ["Guilherme Faustino <contato@guilhermeluis.com>"]
+edition = "2018"
+description = "Crate to parse and emit BR Codes"
+readme = "README.md"
+documentation = "https://docs.rs/pix-br/"
+repository = "https://github.com/iguilhermeluis/pix-br"
+keywords = ["BRCode", "QRCode", "EMV", "Pix", "Bacen"]
+license = "LGPL-3.0"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "pix_br"
+path = "src/lib.rs"
+crate-type = ["rlib", "dylib"]
+
+
+[dependencies]
+qrcode-generator = "4.0.4"
+unidecode = "0.3.0"
+image-base64-wasm = "0.6.0"
